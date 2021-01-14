@@ -368,7 +368,7 @@ class Brick1:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 50 >= ball_pos[0] and 0 <= ball_pos[2]:
+        if 49 >= ball_pos[0] and 0 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -380,7 +380,7 @@ class Brick2:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 100 >= ball_pos[0] and 50 <= ball_pos[2]:
+        if 99 >= ball_pos[0] and 50 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -393,7 +393,7 @@ class Brick3:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 150 >= ball_pos[0] and 100 <= ball_pos[2]:
+        if 149 >= ball_pos[0] and 100 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -406,7 +406,7 @@ class Brick4:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 200 >= ball_pos[0] and 150 <= ball_pos[2]:
+        if 199 >= ball_pos[0] and 150 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -419,7 +419,7 @@ class Brick5:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 250 >= ball_pos[0] and 200 <= ball_pos[2]:
+        if 249 >= ball_pos[0] and 200 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -432,7 +432,7 @@ class Brick6:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 300 >= ball_pos[0] and 250 <= ball_pos[2]:
+        if 299 >= ball_pos[0] and 250 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -445,7 +445,7 @@ class Brick7:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 350 >= ball_pos[0] and 300 <= ball_pos[2]:
+        if 349 >= ball_pos[0] and 300 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -458,7 +458,7 @@ class Brick8:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 400 >= ball_pos[0] and 350 <= ball_pos[2]:
+        if 399 >= ball_pos[0] and 350 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -471,7 +471,7 @@ class Brick9:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 450 >= ball_pos[0] and 400 <= ball_pos[2]:
+        if 449 >= ball_pos[0] and 400 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -484,7 +484,7 @@ class Brick10:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 500 >= ball_pos[0] and 450 <= ball_pos[2]:
+        if 499 >= ball_pos[0] and 450 <= ball_pos[2]:
             if 20 >= ball_pos[1] and 0 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -497,7 +497,7 @@ class Brick11:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 50 >= ball_pos[0] and 0 <= ball_pos[2]:
+        if 49 >= ball_pos[0] and 0 <= ball_pos[2]:
             if 40 >= ball_pos[1] and 20 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -510,7 +510,7 @@ class Brick12:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 100 >= ball_pos[0] and 50 <= ball_pos[2]:
+        if 99 >= ball_pos[0] and 50 <= ball_pos[2]:
             if 40 >= ball_pos[1] and 20 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -523,7 +523,7 @@ class Brick13:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 150 >= ball_pos[0] and 100 <= ball_pos[2]:
+        if 149 >= ball_pos[0] and 100 <= ball_pos[2]:
             if 40 >= ball_pos[1] and 20 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -535,7 +535,7 @@ class Brick14:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 200 >= ball_pos[0] and 150 <= ball_pos[2]:
+        if 199 >= ball_pos[0] and 150 <= ball_pos[2]:
             if 40 >= ball_pos[1] and 20 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -547,7 +547,7 @@ class Brick15:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 250 >= ball_pos[0] and 200 <= ball_pos[2]:
+        if 249 >= ball_pos[0] and 200 <= ball_pos[2]:
             if 40 >= ball_pos[1] and 20 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -559,7 +559,7 @@ class Brick16:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 300 >= ball_pos[0] and 250 <= ball_pos[2]:
+        if 299 >= ball_pos[0] and 250 <= ball_pos[2]:
             if 40 >= ball_pos[1] and 20 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -572,7 +572,7 @@ class Brick17:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 350 >= ball_pos[0] and 300 <= ball_pos[2]:
+        if 349 >= ball_pos[0] and 300 <= ball_pos[2]:
             if 40 >= ball_pos[1] and 20 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -585,7 +585,7 @@ class Brick18:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 400 >= ball_pos[0] and 350 <= ball_pos[2]:
+        if 399 >= ball_pos[0] and 350 <= ball_pos[2]:
             if 40 >= ball_pos[1] and 20 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
@@ -597,7 +597,7 @@ class Brick19:
         global score
         self.ball = ball
         ball_pos = self.canvas.coords(self.ball.id)
-        if 450 >= ball_pos[0] and 400 <= ball_pos[2]:
+        if 449 >= ball_pos[0] and 400 <= ball_pos[2]:
             if 40 >= ball_pos[1] and 20 <= ball_pos[3]:
                 score +=1000
                 canvas.delete(self.id)
